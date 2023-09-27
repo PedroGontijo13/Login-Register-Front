@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className='my-32'>
       <p className=' text-pink-500 justify-center items-center flex'>
-        Hi {user.updatedUser.name ?? 'Login'}, Welcome
+        {/* Hi {user.updatedUser ?? 'Login'}, Welcome */}
       </p>
     </div>
   )
